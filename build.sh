@@ -27,3 +27,8 @@ fi
 
 cd ..
 docker build adsteroids-docker -t adsteroids:${VER}
+docker tag adsteroids:${VER} adsteroids:latest
+docker tag adsteroids:latest 855460960717.dkr.ecr.ap-southeast-2.amazonaws.com/adsteroids:latest
+docker tag adsteroids:latest 855460960717.dkr.ecr.ap-southeast-2.amazonaws.com/adsteroids:${VER}
+
+
