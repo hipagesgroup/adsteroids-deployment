@@ -1,13 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-      kind: Component
-      metadata:
-        name: adsteroids-deployment
-        description: >-
-          Docker deployment for adsteroids
-        annotations:
-          github.com/project-slug: hipagesgroup/adsteroids-deployment
-      spec:
-        type: service
-        lifecycle: experimental
-        owner: marketplace-growth
-      
+kind: Component
+metadata:
+  name: adsteroids-deployment
+  description: Docker deployment for adsteroids
+  annotations:
+    github.com/project-slug: hipagesgroup/adsteroids-deployment
+spec:
+  type: service
+  lifecycle: experimental
+  owner: marketplace-growth
