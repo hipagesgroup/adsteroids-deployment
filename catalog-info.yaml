@@ -5,6 +5,8 @@ metadata:
   description: Docker deployment for adsteroids
   annotations:
     github.com/project-slug: hipagesgroup/adsteroids-deployment
+  tags:
+    - archived  
 spec:
   type: service
   lifecycle: experimental
